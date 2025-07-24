@@ -1,0 +1,38 @@
+<div class="flex items-center justify-center w-full h-full flex-1">
+  <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-[90vw]">
+    <h2 class="text-2xl font-semibold text-center mb-6 text-gray-800">Accept Invitation</h2>
+    <form (ngSubmit)="onAccept()" #acceptForm="ngForm" autocomplete="off">
+      <div class="mb-4">
+        <label class="block text-sm font-medium mb-2 text-gray-700">Email</label>
+        <div class="w-full px-4 py-2 border border-gray-300 rounded-md bg-gray-100 cursor-not-allowed text-gray-700">{{ email }}</div>
+      </div>
+      <div class="mb-4">
+        <label class="block text-sm font-medium mb-2 text-gray-700">First Name</label>
+        <input type="text" name="firstName" [(ngModel)]="firstName" #firstNameRef="ngModel" required class="w-full px-4 py-2 border border-gray-300 rounded-md" />
+        <div *ngIf="firstNameRef.invalid && firstNameRef.touched" class="text-red-600 text-xs mt-1">First name is required.</div>
+      </div>
+      <div class="mb-4">
+        <label class="block text-sm font-medium mb-2 text-gray-700">Last Name</label>
+        <input type="text" name="lastName" [(ngModel)]="lastName" #lastNameRef="ngModel" required class="w-full px-4 py-2 border border-gray-300 rounded-md" />
+        <div *ngIf="lastNameRef.invalid && lastNameRef.touched" class="text-red-600 text-xs mt-1">Last name is required.</div>
+      </div>
+      <div class="mb-6">
+        <label class="block text-sm font-medium mb-2 text-gray-700">Password</label>
+        <input type="password" name="password" [(ngModel)]="password" #passwordRef="ngModel" required class="w-full px-4 py-2 border border-gray-300 rounded-md" />
+        <div *ngIf="passwordRef.invalid && passwordRef.touched" class="text-red-600 text-xs mt-1">Password is required.</div>
+      </div>
+      <div class="mb-6">
+        <label class="block text-sm font-medium mb-2 text-gray-700">Confirm Password</label>
+        <input type="password" name="confirmPassword" [(ngModel)]="confirmPassword" #confirmPasswordRef="ngModel" required class="w-full px-4 py-2 border border-gray-300 rounded-md" />
+        <div *ngIf="confirmPasswordRef.invalid && confirmPasswordRef.touched" class="text-red-600 text-xs mt-1">Confirm password is required.</div>
+      </div>
+      <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700"
+        [disabled]="loading || !firstName || !lastName || !password || !confirmPassword || password !== confirmPassword">
+        {{ loading ? 'Accepting...' : 'Accept Invitation' }}
+      </button>
+      <div *ngIf="password !== confirmPassword && confirmPassword" class="mt-2 text-red-600 text-center text-sm">Passwords do not match.</div>
+      <div *ngIf="error" class="mt-4 text-red-600 text-center text-sm">{{ error }}</div>
+      <div *ngIf="success" class="mt-4 text-green-600 text-center text-sm">{{ success }}</div>
+    </form>
+  </div>
+</div>

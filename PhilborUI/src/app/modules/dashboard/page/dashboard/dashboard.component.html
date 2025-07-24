@@ -1,0 +1,19 @@
+<div class="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)] w-full gap-6">
+  <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-[90vw]">
+    <h2 class="text-2xl font-bold text-center mb-2 text-gray-800">Welcome{{ userName ? ', ' + userName : '' }}!</h2>
+    <p class="text-center text-gray-600 mb-4">This is your dashboard. Here you can manage your account and access features based on your role.</p>
+    <div *ngIf="isAdmin" class="flex flex-col items-center">
+      <button routerLink="/create-user" class="mb-4 px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Create User</button>
+      <div class="text-sm text-blue-700">You have admin privileges.</div>
+    </div>
+    <div *ngIf="!isAdmin" class="text-sm text-gray-500 text-center">You are logged in as a user.</div>
+  </div>
+  <div class="max-w-md w-[90vw]">
+    <div class="bg-white rounded-lg shadow p-6">
+      <h3 class="text-lg font-semibold mb-2 text-gray-800">Quick Links</h3>
+      <ul class="list-disc list-inside text-gray-700">
+        <li><a routerLink="/auth/forgot-password" class="text-blue-600 hover:underline">Forgot Password</a></li>
+      </ul>
+    </div>
+  </div>
+</div>

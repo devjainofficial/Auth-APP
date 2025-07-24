@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global dark mode supplement */
+body.dark {
+  background-color: #18181b;
+  color: #fff;
+}
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6 {
+  color: #fff;
+}
+body.dark .card, body.dark .panel, body.dark .box {
+  background-color: #23272f;
+  color: #fff;
+}

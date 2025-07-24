@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{AA1C8A1A-4AFB-4AFC-940F-259C98A8FB22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{BE8988A3-6A03-442F-AECB-B0A5063EF6C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9E12D0FE-18EC-4A01-82F3-A4376AC98598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Philbor.Domain", "Philbor.Domain\Philbor.Domain.csproj", "{E687FBB9-3FA7-449A-8897-506F9368107C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Philbor.Application", "Philbor.Application\Philbor.Application.csproj", "{7042BD82-5598-4DE8-B0D2-BA467C46D952}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Philbor.Infrastructure", "Philbor.Infrastructure\Philbor.Infrastructure.csproj", "{6851E941-95CB-4598-8C3E-6E5913C35BA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Philbor.API", "Philbor.API\Philbor.API.csproj", "{9306BE09-32AE-4DF4-8F8A-761CC41722E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E687FBB9-3FA7-449A-8897-506F9368107C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E687FBB9-3FA7-449A-8897-506F9368107C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E687FBB9-3FA7-449A-8897-506F9368107C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E687FBB9-3FA7-449A-8897-506F9368107C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7042BD82-5598-4DE8-B0D2-BA467C46D952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7042BD82-5598-4DE8-B0D2-BA467C46D952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7042BD82-5598-4DE8-B0D2-BA467C46D952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7042BD82-5598-4DE8-B0D2-BA467C46D952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6851E941-95CB-4598-8C3E-6E5913C35BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6851E941-95CB-4598-8C3E-6E5913C35BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6851E941-95CB-4598-8C3E-6E5913C35BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6851E941-95CB-4598-8C3E-6E5913C35BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9306BE09-32AE-4DF4-8F8A-761CC41722E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9306BE09-32AE-4DF4-8F8A-761CC41722E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9306BE09-32AE-4DF4-8F8A-761CC41722E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9306BE09-32AE-4DF4-8F8A-761CC41722E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {9E12D0FE-18EC-4A01-82F3-A4376AC98598}
+		{AA1C8A1A-4AFB-4AFC-940F-259C98A8FB22} = {9E12D0FE-18EC-4A01-82F3-A4376AC98598}
+		{BE8988A3-6A03-442F-AECB-B0A5063EF6C8} = {9E12D0FE-18EC-4A01-82F3-A4376AC98598}
+		{E687FBB9-3FA7-449A-8897-506F9368107C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7042BD82-5598-4DE8-B0D2-BA467C46D952} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6851E941-95CB-4598-8C3E-6E5913C35BA4} = {AA1C8A1A-4AFB-4AFC-940F-259C98A8FB22}
+		{9306BE09-32AE-4DF4-8F8A-761CC41722E1} = {BE8988A3-6A03-442F-AECB-B0A5063EF6C8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B0C2731-B676-4487-ADED-1B3986005272}
+	EndGlobalSection
+EndGlobal

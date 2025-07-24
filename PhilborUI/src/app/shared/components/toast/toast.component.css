@@ -1,0 +1,41 @@
+/* Toast animations */
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.toast-enter {
+  animation: slideIn 0.4s ease-out;
+}
+
+.toast-leave {
+  animation: slideOut 0.3s ease-in;
+}
+
+/* Ensure proper sizing */
+.toast-container {
+  min-width: 320px;
+  max-width: 448px;
+}
+
+/* Enhanced shadow for better visibility */
+.toast-shadow {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+} 
