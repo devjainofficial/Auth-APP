@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\MySpace\\Angular\\Philbor\\Philbor\\philbor\\AuthAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9306BE09-32AE-4DF4-8F8A-761CC41722E1}|Philbor.API\\Philbor.API.csproj|e:\\myspace\\angular\\philbor\\philbor\\philbor\\authapi\\philbor.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9306BE09-32AE-4DF4-8F8A-761CC41722E1}|Philbor.API\\Philbor.API.csproj|solutionrelative:philbor.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9306BE09-32AE-4DF4-8F8A-761CC41722E1}|Philbor.API\\Philbor.API.csproj|e:\\myspace\\angular\\philbor\\philbor\\philbor\\authapi\\philbor.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9306BE09-32AE-4DF4-8F8A-761CC41722E1}|Philbor.API\\Philbor.API.csproj|solutionrelative:philbor.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\MySpace\\Angular\\Philbor\\Philbor\\philbor\\AuthAPI\\Philbor.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Philbor.API\\appsettings.json",
+              "ToolTip": "E:\\MySpace\\Angular\\Philbor\\Philbor\\philbor\\AuthAPI\\Philbor.API\\appsettings.json",
+              "RelativeToolTip": "Philbor.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-24T06:12:51.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\MySpace\\Angular\\Philbor\\Philbor\\philbor\\AuthAPI\\Philbor.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Philbor.API\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\MySpace\\Angular\\Philbor\\Philbor\\philbor\\AuthAPI\\Philbor.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Philbor.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwCEAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T12:37:28.097Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
