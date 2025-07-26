@@ -37,6 +37,8 @@ e2e/*.map
 # .NET Core build folders
 bin/
 obj/
+
+# Configuration files
 appsettings.json
 
 # Common node modules locations
